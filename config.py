@@ -40,9 +40,9 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB = {}
-1:-
-2:-
-3:-
+1:-1002079962899
+2:-1001574189667
+3:-1002128807252
 FORCE_SUB_COUNTER = 5
 while True:
     key = f"FORCE_SUB{FORCE_SUB_COUNTER}"
