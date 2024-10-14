@@ -53,4 +53,6 @@ class Data:
  - Jika anda berminat memiliki bot ini silahkan hubungi owner yang tertera pada bot ini
 
  - Jika anda ingin melihat Lain nya kalian bisa mengunjungi Halaman Channel kami di bawah ini
-     Channel :  </b><a href='https://t.me/Galerifsyrl'>@Galerifsyrl</a>
+ - Channel :  </b><a href='https://t.me/Galerifsyrl'>@Galerifsyrl</a>
+
+"""
