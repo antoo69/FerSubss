@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
- ✨Perintah untuk Pengguna BOT✨
+ <b></blockquote>✨Perintah untuk Pengguna BOT✨
   - /start - Mulai Bot
   - /about - Tentang Bot ini
   - /help - Bantuan Perintah Bot ini
@@ -22,8 +22,9 @@ class Data:
   - /batch - Untuk membuat link lebih dari satu file
   - /speedtest - Untuk Mengetes kecepatan server bot
   - /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
+  <b></blockquote>
 
-🗿Owner :  </b><a href='https://t.me/Galerifsyrl'>@fsyrl9</a>
+🗿Owner :  </b></blockquote><a href='https://t.me/Galerifsyrl'>@fsyrl9</blockquote></a>
 """
 
     close = [
@@ -45,7 +46,7 @@ class Data:
     ]
 
     ABOUT = """
-<b>Tentang Bot ini:
+<b></blockquote>Tentang Bot ini:
 
 @{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
 
@@ -53,6 +54,6 @@ class Data:
  - Jika anda berminat memiliki bot ini silahkan hubungi owner yang tertera pada bot ini
 
  - Jika anda ingin melihat Lain nya kalian bisa mengunjungi Halaman Channel kami di bawah ini
- - Channel :  </b><a href='https://t.me/Galerifsyrl'>@Galerifsyrl</a>
+ - Channel :  </b><a href='https://t.me/Galerifsyrl'>@Galerifsyrl</a></blockquote>
 
 """
