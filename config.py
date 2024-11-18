@@ -40,10 +40,9 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB = {
-  1:-1002175887941,
-  2:-1002239827921,
-  3:-1001716816246,
-  4:-1002163515020
+  1:-1002079962899,
+  2:-1001574189667,
+  3:-1002128807252
 }
 FORCE_SUB_COUNTER = 6
 while True:
@@ -65,7 +64,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "</blockquote> ʜᴀʟᴏ {first}</b></blockquote>\n\n<b>ᴋʟɪᴋ ᴊᴏɪɴ ᴅᴜʟᴜ ʏᴀ ꜱᴀʏᴀɴɢ, ʙᴀʀᴜ ᴍᴇᴅɪᴀ ᴛᴜʀᴜɴ 😘. </blockquote>",
+    "</blockquote>ʜᴀʟᴏ {first}</blockquote> </blockquote>ᴋʟɪᴋ ᴊᴏɪɴ ᴅᴜʟᴜ ʏᴀ ꜱᴀʏᴀɴɢ, ʙᴀʀᴜ ᴍᴇᴅɪᴀ ᴛᴜʀᴜɴ 😘.</blockquote>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -86,7 +85,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Tru
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((844432220, 1250450587, 1750080384, 182990552))
+ADMINS.extend(())
 
 
 LOG_FILE_NAME = "logs.txt"
