@@ -65,7 +65,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>ʜᴀʟᴏ {first}</b>\n\n<b>ᴋʟɪᴋ ᴊᴏɪɴ ᴅᴜʟᴜ ʏᴀ ꜱᴀʏᴀɴɢ, ʙᴀʀᴜ ᴍᴇᴅɪᴀ ᴛᴜʀᴜɴ 😘.</b>",
+    "<b></blockquote> ʜᴀʟᴏ {first}</b></blockquote\n\n<b>ᴋʟɪᴋ ᴊᴏɪɴ ᴅᴜʟᴜ ʏᴀ ꜱᴀʏᴀɴɢ, ʙᴀʀᴜ ᴍᴇᴅɪᴀ ᴛᴜʀᴜɴ 😘. </blockquote></b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -75,7 +75,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
+    "<b></blockquote> Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</blockquote></b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
