@@ -6,14 +6,14 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
- <b></blockquote>✨Perintah untuk Pengguna BOT✨
+  </blockquote>✨Perintah untuk Pengguna BOT✨
   - /start - Mulai Bot
   - /about - Tentang Bot ini
   - /help - Bantuan Perintah Bot ini
   - /ping - Untuk mengecek bot hidup
-  - /uptime - Untuk melihat status bot 
+  - /uptime - Untuk melihat status bot </blockquote> 
  
- 🕵️ Perintah Untuk Admin BOT🕵️
+ 🕵️</blockquote> Perintah Untuk Admin BOT🕵️
   -  /logs - Untuk melihat logs bot
   - /setvar - Untuk mengatur var dengan command dibot
   - /delvar - Untuk menghapus var dengan command dibot
@@ -22,9 +22,9 @@ class Data:
   - /batch - Untuk membuat link lebih dari satu file
   - /speedtest - Untuk Mengetes kecepatan server bot
   - /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
-  <b></blockquote>
+  </blockquote>
 
-🗿Owner :  </b></blockquote><a href='https://t.me/Galerifsyrl'>@fsyrl9</blockquote></a>
+🗿Owner :  </blockquote><a href='https://t.me/Galerifsyrl'>@fsyrl9</blockquote></a>
 """
 
     close = [
@@ -46,7 +46,7 @@ class Data:
     ]
 
     ABOUT = """
-<b></blockquote>Tentang Bot ini:
+</blockquote>Tentang Bot ini:
 
 @{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
 
@@ -54,6 +54,6 @@ class Data:
  - Jika anda berminat memiliki bot ini silahkan hubungi owner yang tertera pada bot ini
 
  - Jika anda ingin melihat Lain nya kalian bisa mengunjungi Halaman Channel kami di bawah ini
- - Channel :  </b><a href='https://t.me/Galerifsyrl'>@Galerifsyrl</a></blockquote>
+ - Channel :  </b><a href='https://t.me/Galerifsyrl'>@Galerifsyrl</a> </blockquote>
 
 """
