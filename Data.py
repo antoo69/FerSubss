@@ -49,7 +49,10 @@ class Data:
 
 @{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
 
-    Ini adalah bot ForceSubs/File share link unlimited Button atau support 2-6 Button sesuai keperluan
+    </blockquote>Ini adalah bot ForceSubs/File share link
+    unlimited Button atau support 2-6 Button
+    sesuai keperluan<blockquote>
+    
  - Jika anda berminat memiliki bot ini silahkan hubungi owner yang tertera pada bot ini
 
  - Jika anda ingin melihat Lain nya kalian bisa mengunjungi Halaman Channel kami di bawah ini
