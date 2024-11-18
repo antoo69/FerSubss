@@ -33,18 +33,18 @@ async def get_bot_logs(client: Bot, m: Message):
             await m.reply_document(
                 bot_log_path,
                 quote=True,
-                caption="<b>Ini Logs Bot ini</b>",
+                caption="<b></blockquote>Ini Logs Bot ini</blockquote></b>",
             )
         except Exception as e:
             os.remove(bot_log_path)
             LOGGER(__name__).warning(e)
     elif not os.path.exists(bot_log_path):
-        await m.reply_text("❌ <b>Tidak ada log yang ditemukan!</b>")
+        await m.reply_text("❌ <b></blockquote>Tidak ada log yang ditemukan!</blockquote></b>")
 
 
 @Bot.on_message(filters.command("vars") & filters.user(ADMINS))
 async def varsFunc(client: Bot, message: Message):
-    Man = await message.reply_text("Tunggu Sebentar...")
+    Man = await message.reply_text("</blockquote>Tunggu Sebentar...</blockquote>")
     text = f"""<u><b>CONFIG VARS</b></u> @{client.username}
 APP_ID = <code>{APP_ID}</code>
 API_HASH = <code>{API_HASH}</code>
