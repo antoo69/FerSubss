@@ -11,7 +11,7 @@ class Data:
   - /about - Tentang Bot ini
   - /help - Bantuan Perintah Bot ini
   - /ping - Untuk mengecek bot hidup
-  - /uptime - Untuk melihat status bot </blockquote> 
+  - /uptime - Untuk melihat status bot</blockquote> 
  
  🕵️</blockquote> Perintah Untuk Admin BOT🕵️
   -  /logs - Untuk melihat logs bot
@@ -21,8 +21,7 @@ class Data:
   - /users - Untuk melihat statistik pengguna bot
   - /batch - Untuk membuat link lebih dari satu file
   - /speedtest - Untuk Mengetes kecepatan server bot
-  - /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
-  </blockquote>
+  - /broadcast - Untuk mengirim pesan broadcast ke pengguna bot</blockquote>
 
 🗿Owner :  </blockquote><a href='https://t.me/Galerifsyrl'>@fsyrl9</blockquote></a>
 """
@@ -54,6 +53,7 @@ class Data:
  - Jika anda berminat memiliki bot ini silahkan hubungi owner yang tertera pada bot ini
 
  - Jika anda ingin melihat Lain nya kalian bisa mengunjungi Halaman Channel kami di bawah ini
- - Channel :  </b><a href='https://t.me/Galerifsyrl'>@Galerifsyrl</a> </blockquote>
-
+ 
+ - Channel :  </blockquote><a href='https://t.me/Galerifsyrl'>@Galerifsyrl</a> </blockquote>
+ </blockquote>
 """
