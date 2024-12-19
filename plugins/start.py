@@ -89,11 +89,11 @@ async def start_command(client: Bot, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except BaseException:
                 return
-        temp_msg = await message.reply("</blockquote>Tunggu Sebentar...</blockquote>")
+        temp_msg = await message.reply("<blockquote>Tunggu Sebentar...</blockquote>")
         try:
             messages = await get_messages(client, ids)
         except BaseException:
-            await message.reply_text("</blockquote>Telah Terjadi Error </blockquote>🥺")
+            await message.reply_text("<blockquote>Telah Terjadi Error </blockquote>🥺")
             return
         await temp_msg.delete()
 
@@ -172,10 +172,10 @@ async def not_joined(client: Bot, message: Message):
 @Bot.on_message(filters.command(["users", "stats"]) & filters.user(ADMINS))
 async def get_users(client: Bot, message: Message):
     msg = await client.send_message(
-        chat_id=message.chat.id, text="</blockquote>Processing ...</blockquote>"
+        chat_id=message.chat.id, text="<blockquote>Processing ...</blockquote>"
     )
     users = await full_userbase()
-    await msg.edit(f"{len(users)} </blockquote>Pengguna menggunakan bot ini</blockquote>")
+    await msg.edit(f"{len(users)} <blockquote>Pengguna menggunakan bot ini</blockquote>")
 
 
 @Bot.on_message(filters.command("broadcast") & filters.user(ADMINS))
@@ -190,7 +190,7 @@ async def send_text(client: Bot, message: Message):
         unsuccessful = 0
 
         pls_wait = await message.reply(
-            "</blockquote>Broadcasting Message Tunggu Sebentar...</blockquote>"
+            "<blockquote>Broadcasting Message Tunggu Sebentar...</blockquote>"
         )
         for row in query:
             chat_id = int(row[0])
@@ -211,16 +211,16 @@ async def send_text(client: Bot, message: Message):
                 except BaseException:
                     unsuccessful += 1
                 total += 1
-        status = f"""<b><u>Berhasil Broadcast</u>
+        status = f"""<blockquote><u>Berhasil Broadcast</u>
 Jumlah Pengguna: <code>{total}</code>
 Berhasil: <code>{successful}</code>
 Gagal: <code>{unsuccessful}</code>
 Pengguna diblokir: <code>{blocked}</code>
-Akun Terhapus: <code>{deleted}</code></b>"""
+Akun Terhapus: <code>{deleted}</code></blockquote>"""
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
-            "<code></blockquote>Gunakan Perintah ini Harus Sambil Reply ke pesan telegram yang ingin di Broadcast.</blockquote></code>"
+            "<blockquote><code>Gunakan Perintah ini Harus Sambil Reply ke pesan telegram yang ingin di Broadcast.</blockquote></code>"
         )
         await asyncio.sleep(8)
         await msg.delete()
@@ -232,7 +232,7 @@ async def ping_pong(client, m: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    m_reply = await m.reply_text("Pinging...")
+    m_reply = await m.reply_text("<blockquote>Pinging...</blockquote>")
     delta_ping = time() - start
     await m_reply.edit_text(
         "<b>PONG!!</b>🏓 \n"
