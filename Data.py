@@ -51,7 +51,7 @@ Tentang Bot ini:
 
     Ini adalah bot ForceSubs/File share link
     unlimited Button atau support 2-6 Button
-    sesuai keperluan<blockquote>
+    sesuai keperluan
     
  - Jika anda berminat memiliki bot ini silahkan hubungi owner yang tertera pada bot ini
 
