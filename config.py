@@ -44,7 +44,7 @@ FORCE_SUB = {
   2:-1001574189667,
   3:-1002128807252
 }
-FORCE_SUB_COUNTER = 6
+FORCE_SUB_COUNTER = 5
 while True:
     key = f"FORCE_SUB{FORCE_SUB_COUNTER}"
     value = os.environ.get(key)
