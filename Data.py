@@ -23,7 +23,7 @@ class Data:
   - /speedtest - Untuk Mengetes kecepatan server bot
   - /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
 
-🗿Owner :  <a> href='https://t.me/Galerifsyrl'>@fsyrl9</a>
+🗿Owner :  <a href='https://t.me/Galerifsyrl'>Ferdi Store</a>
 </blockquote>"""
 
     close = [
@@ -57,6 +57,6 @@ Tentang Bot ini:
 
  - Jika anda ingin melihat Lain nya kalian bisa mengunjungi Halaman Channel kami di bawah ini
  
- - Channel :  <a> href='https://t.me/Galerifsyrl'>@Galerifsyrl</a>
+ - Channel :  <a href='https://t.me/Galerifsyrl'>Ferdi Store</a>
  
 </blockquote>"""
