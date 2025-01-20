@@ -40,9 +40,9 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB = {
-  1:-1002079962899,
-  2:-1001574189667,
-  3:-1002128807252
+  1:-100,
+  2:-100,
+  3:-100
 }
 FORCE_SUB_COUNTER = 5
 while True:
@@ -64,7 +64,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "</blockquote>ʜᴀʟᴏ {first}</blockquote> </blockquote>ᴋʟɪᴋ ᴊᴏɪɴ ᴅᴜʟᴜ ʏᴀ ꜱᴀʏᴀɴɢ, ʙᴀʀᴜ ᴍᴇᴅɪᴀ ᴛᴜʀᴜɴ 😘.</blockquote>",
+    "<blockquote>ʜᴀʟᴏ {first}</blockquote> <blockquote>ᴋʟɪᴋ ᴊᴏɪɴ ᴅᴜʟᴜ ʏᴀ ꜱᴀʏᴀɴɢ, ʙᴀʀᴜ ᴍᴇᴅɪᴀ ᴛᴜʀᴜɴ 😘.</blockquote>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -74,7 +74,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "</blockquote> Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu.</blockquote>",
+    "<blockquote> Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu.</blockquote>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
